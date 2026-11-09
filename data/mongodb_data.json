@@ -1,0 +1,794 @@
+{
+  "customers": [
+    {
+      "id_cliente": 1,
+      "nombre": "María García",
+      "email": "maria.garcia@email.com",
+      "pais": "España",
+      "fecha_registro": "2023-01-15"
+    },
+    {
+      "id_cliente": 2,
+      "nombre": "John Smith",
+      "email": "john.smith@email.com",
+      "pais": "USA",
+      "fecha_registro": "2023-02-20"
+    },
+    {
+      "id_cliente": 3,
+      "nombre": "Pierre Dubois",
+      "email": "pierre.dubois@email.com",
+      "pais": "Francia",
+      "fecha_registro": "2023-01-10"
+    },
+    {
+      "id_cliente": 4,
+      "nombre": "Ana Silva",
+      "email": "ana.silva@email.com",
+      "pais": "Brasil",
+      "fecha_registro": "2023-03-05"
+    },
+    {
+      "id_cliente": 5,
+      "nombre": "Klaus Mueller",
+      "email": "klaus.mueller@email.com",
+      "pais": "Alemania",
+      "fecha_registro": "2023-02-15"
+    },
+    {
+      "id_cliente": 6,
+      "nombre": "Sofia Rossi",
+      "email": "sofia.rossi@email.com",
+      "pais": "Italia",
+      "fecha_registro": "2023-04-01"
+    },
+    {
+      "id_cliente": 7,
+      "nombre": "Carlos Mendez",
+      "email": "carlos.mendez@email.com",
+      "pais": "México",
+      "fecha_registro": "2023-01-25"
+    },
+    {
+      "id_cliente": 8,
+      "nombre": "Emma Johnson",
+      "email": "emma.johnson@email.com",
+      "pais": "UK",
+      "fecha_registro": "2023-03-10"
+    },
+    {
+      "id_cliente": 9,
+      "nombre": "Yuki Tanaka",
+      "email": "yuki.tanaka@email.com",
+      "pais": "Japón",
+      "fecha_registro": "2023-02-28"
+    },
+    {
+      "id_cliente": 10,
+      "nombre": "Lars Anderson",
+      "email": "lars.anderson@email.com",
+      "pais": "Suecia",
+      "fecha_registro": "2023-04-15"
+    },
+    {
+      "id_cliente": 11,
+      "nombre": "Isabel Lopez",
+      "email": "isabel.lopez@email.com",
+      "pais": "España",
+      "fecha_registro": "2023-05-01"
+    },
+    {
+      "id_cliente": 12,
+      "nombre": "Michael Brown",
+      "email": "michael.brown@email.com",
+      "pais": "USA",
+      "fecha_registro": "2023-03-20"
+    },
+    {
+      "id_cliente": 13,
+      "nombre": "Laura Bianchi",
+      "email": "laura.bianchi@email.com",
+      "pais": "Italia",
+      "fecha_registro": "2023-04-25"
+    },
+    {
+      "id_cliente": 14,
+      "nombre": "Hans Schmidt",
+      "email": "hans.schmidt@email.com",
+      "pais": "Alemania",
+      "fecha_registro": "2023-05-10"
+    },
+    {
+      "id_cliente": 15,
+      "nombre": "Patricia Santos",
+      "email": "patricia.santos@email.com",
+      "pais": "Brasil",
+      "fecha_registro": "2023-06-01"
+    }
+  ],
+  "products": [
+    {
+      "id_producto": 101,
+      "nombre_producto": "Laptop Dell XPS 13",
+      "categoria": "Tecnología",
+      "precio": 1299.99,
+      "stock": 25
+    },
+    {
+      "id_producto": 102,
+      "nombre_producto": "iPhone 14 Pro",
+      "categoria": "Tecnología",
+      "precio": 1099.99,
+      "stock": 40
+    },
+    {
+      "id_producto": 103,
+      "nombre_producto": "Samsung Galaxy S23",
+      "categoria": "Tecnología",
+      "precio": 899.99,
+      "stock": 35
+    },
+    {
+      "id_producto": 104,
+      "nombre_producto": "iPad Air",
+      "categoria": "Tecnología",
+      "precio": 599.99,
+      "stock": 30
+    },
+    {
+      "id_producto": 105,
+      "nombre_producto": "Auriculares Sony WH-1000XM5",
+      "categoria": "Tecnología",
+      "precio": 349.99,
+      "stock": 50
+    },
+    {
+      "id_producto": 201,
+      "nombre_producto": "Sofá Moderno 3 Plazas",
+      "categoria": "Hogar",
+      "precio": 799.99,
+      "stock": 15
+    },
+    {
+      "id_producto": 202,
+      "nombre_producto": "Mesa de Comedor Roble",
+      "categoria": "Hogar",
+      "precio": 549.99,
+      "stock": 20
+    },
+    {
+      "id_producto": 203,
+      "nombre_producto": "Lámpara de Pie LED",
+      "categoria": "Hogar",
+      "precio": 129.99,
+      "stock": 45
+    },
+    {
+      "id_producto": 204,
+      "nombre_producto": "Alfombra Persa 200x300",
+      "categoria": "Hogar",
+      "precio": 399.99,
+      "stock": 25
+    },
+    {
+      "id_producto": 205,
+      "nombre_producto": "Estantería Modular",
+      "categoria": "Hogar",
+      "precio": 249.99,
+      "stock": 30
+    },
+    {
+      "id_producto": 301,
+      "nombre_producto": "Cafetera Nespresso",
+      "categoria": "Electrodomésticos",
+      "precio": 199.99,
+      "stock": 60
+    },
+    {
+      "id_producto": 302,
+      "nombre_producto": "Aspiradora Roomba i7",
+      "categoria": "Electrodomésticos",
+      "precio": 699.99,
+      "stock": 20
+    },
+    {
+      "id_producto": 303,
+      "nombre_producto": "Microondas Samsung",
+      "categoria": "Electrodomésticos",
+      "precio": 149.99,
+      "stock": 35
+    },
+    {
+      "id_producto": 304,
+      "nombre_producto": "Batidora KitchenAid",
+      "categoria": "Electrodomésticos",
+      "precio": 279.99,
+      "stock": 40
+    },
+    {
+      "id_producto": 305,
+      "nombre_producto": "Freidora de Aire Philips",
+      "categoria": "Electrodomésticos",
+      "precio": 179.99,
+      "stock": 55
+    }
+  ],
+  "orders": [
+    {
+      "id_pedido": 1001,
+      "id_cliente": 1,
+      "fecha_pedido": "2024-01-10",
+      "total": 1949.98,
+      "estado": "Entregado"
+    },
+    {
+      "id_pedido": 1002,
+      "id_cliente": 2,
+      "fecha_pedido": "2024-01-12",
+      "total": 1099.99,
+      "estado": "Entregado"
+    },
+    {
+      "id_pedido": 1003,
+      "id_cliente": 3,
+      "fecha_pedido": "2024-01-15",
+      "total": 1749.97,
+      "estado": "Entregado"
+    },
+    {
+      "id_pedido": 1004,
+      "id_cliente": 1,
+      "fecha_pedido": "2024-01-20",
+      "total": 599.99,
+      "estado": "Entregado"
+    },
+    {
+      "id_pedido": 1005,
+      "id_cliente": 4,
+      "fecha_pedido": "2024-01-22",
+      "total": 949.98,
+      "estado": "Entregado"
+    },
+    {
+      "id_pedido": 1006,
+      "id_cliente": 5,
+      "fecha_pedido": "2024-01-25",
+      "total": 2399.96,
+      "estado": "Entregado"
+    },
+    {
+      "id_pedido": 1007,
+      "id_cliente": 2,
+      "fecha_pedido": "2024-02-01",
+      "total": 899.99,
+      "estado": "Entregado"
+    },
+    {
+      "id_pedido": 1008,
+      "id_cliente": 6,
+      "fecha_pedido": "2024-02-05",
+      "total": 1349.98,
+      "estado": "Entregado"
+    },
+    {
+      "id_pedido": 1009,
+      "id_cliente": 7,
+      "fecha_pedido": "2024-02-08",
+      "total": 779.98,
+      "estado": "Entregado"
+    },
+    {
+      "id_pedido": 1010,
+      "id_cliente": 3,
+      "fecha_pedido": "2024-02-10",
+      "total": 349.99,
+      "estado": "Entregado"
+    },
+    {
+      "id_pedido": 1011,
+      "id_cliente": 8,
+      "fecha_pedido": "2024-02-15",
+      "total": 1299.99,
+      "estado": "Entregado"
+    },
+    {
+      "id_pedido": 1012,
+      "id_cliente": 1,
+      "fecha_pedido": "2024-02-18",
+      "total": 699.99,
+      "estado": "Entregado"
+    },
+    {
+      "id_pedido": 1013,
+      "id_cliente": 9,
+      "fecha_pedido": "2024-02-20",
+      "total": 1649.97,
+      "estado": "Entregado"
+    },
+    {
+      "id_pedido": 1014,
+      "id_cliente": 4,
+      "fecha_pedido": "2024-02-25",
+      "total": 549.99,
+      "estado": "Entregado"
+    },
+    {
+      "id_pedido": 1015,
+      "id_cliente": 10,
+      "fecha_pedido": "2024-03-01",
+      "total": 2099.97,
+      "estado": "Entregado"
+    },
+    {
+      "id_pedido": 1016,
+      "id_cliente": 5,
+      "fecha_pedido": "2024-03-05",
+      "total": 899.99,
+      "estado": "Entregado"
+    },
+    {
+      "id_pedido": 1017,
+      "id_cliente": 11,
+      "fecha_pedido": "2024-03-08",
+      "total": 1549.98,
+      "estado": "Entregado"
+    },
+    {
+      "id_pedido": 1018,
+      "id_cliente": 2,
+      "fecha_pedido": "2024-03-12",
+      "total": 1299.99,
+      "estado": "Entregado"
+    },
+    {
+      "id_pedido": 1019,
+      "id_cliente": 6,
+      "fecha_pedido": "2024-03-15",
+      "total": 629.98,
+      "estado": "Entregado"
+    },
+    {
+      "id_pedido": 1020,
+      "id_cliente": 12,
+      "fecha_pedido": "2024-03-18",
+      "total": 1899.98,
+      "estado": "Entregado"
+    },
+    {
+      "id_pedido": 1021,
+      "id_cliente": 7,
+      "fecha_pedido": "2024-03-22",
+      "total": 949.98,
+      "estado": "Entregado"
+    },
+    {
+      "id_pedido": 1022,
+      "id_cliente": 8,
+      "fecha_pedido": "2024-03-25",
+      "total": 1749.97,
+      "estado": "Entregado"
+    },
+    {
+      "id_pedido": 1023,
+      "id_cliente": 3,
+      "fecha_pedido": "2024-04-01",
+      "total": 799.99,
+      "estado": "Entregado"
+    },
+    {
+      "id_pedido": 1024,
+      "id_cliente": 13,
+      "fecha_pedido": "2024-04-05",
+      "total": 1449.98,
+      "estado": "Entregado"
+    },
+    {
+      "id_pedido": 1025,
+      "id_cliente": 9,
+      "fecha_pedido": "2024-04-08",
+      "total": 1099.99,
+      "estado": "Entregado"
+    },
+    {
+      "id_pedido": 1026,
+      "id_cliente": 14,
+      "fecha_pedido": "2024-04-12",
+      "total": 2299.96,
+      "estado": "Entregado"
+    },
+    {
+      "id_pedido": 1027,
+      "id_cliente": 1,
+      "fecha_pedido": "2024-04-15",
+      "total": 349.99,
+      "estado": "Entregado"
+    },
+    {
+      "id_pedido": 1028,
+      "id_cliente": 10,
+      "fecha_pedido": "2024-04-18",
+      "total": 1599.98,
+      "estado": "Entregado"
+    },
+    {
+      "id_pedido": 1029,
+      "id_cliente": 15,
+      "fecha_pedido": "2024-04-22",
+      "total": 999.98,
+      "estado": "Entregado"
+    },
+    {
+      "id_pedido": 1030,
+      "id_cliente": 4,
+      "fecha_pedido": "2024-04-25",
+      "total": 1849.97,
+      "estado": "Entregado"
+    }
+  ],
+  "order_details": [
+    {
+      "_id": 1,
+      "id_pedido": 1001,
+      "id_producto": 101,
+      "cantidad": 1,
+      "precio_unitario": 1299.99
+    },
+    {
+      "_id": 2,
+      "id_pedido": 1001,
+      "id_producto": 203,
+      "cantidad": 5,
+      "precio_unitario": 129.99
+    },
+    {
+      "_id": 3,
+      "id_pedido": 1002,
+      "id_producto": 102,
+      "cantidad": 1,
+      "precio_unitario": 1099.99
+    },
+    {
+      "_id": 4,
+      "id_pedido": 1003,
+      "id_producto": 103,
+      "cantidad": 1,
+      "precio_unitario": 899.99
+    },
+    {
+      "_id": 5,
+      "id_pedido": 1003,
+      "id_producto": 105,
+      "cantidad": 1,
+      "precio_unitario": 349.99
+    },
+    {
+      "_id": 6,
+      "id_pedido": 1003,
+      "id_producto": 301,
+      "cantidad": 2,
+      "precio_unitario": 199.99
+    },
+    {
+      "_id": 7,
+      "id_pedido": 1004,
+      "id_producto": 104,
+      "cantidad": 1,
+      "precio_unitario": 599.99
+    },
+    {
+      "_id": 8,
+      "id_pedido": 1005,
+      "id_producto": 105,
+      "cantidad": 1,
+      "precio_unitario": 349.99
+    },
+    {
+      "_id": 9,
+      "id_pedido": 1005,
+      "id_producto": 301,
+      "cantidad": 3,
+      "precio_unitario": 199.99
+    },
+    {
+      "_id": 10,
+      "id_pedido": 1006,
+      "id_producto": 101,
+      "cantidad": 1,
+      "precio_unitario": 1299.99
+    },
+    {
+      "_id": 11,
+      "id_pedido": 1006,
+      "id_producto": 102,
+      "cantidad": 1,
+      "precio_unitario": 1099.99
+    },
+    {
+      "_id": 12,
+      "id_pedido": 1007,
+      "id_producto": 103,
+      "cantidad": 1,
+      "precio_unitario": 899.99
+    },
+    {
+      "_id": 13,
+      "id_pedido": 1008,
+      "id_producto": 201,
+      "cantidad": 1,
+      "precio_unitario": 799.99
+    },
+    {
+      "_id": 14,
+      "id_pedido": 1008,
+      "id_producto": 202,
+      "cantidad": 1,
+      "precio_unitario": 549.99
+    },
+    {
+      "_id": 15,
+      "id_pedido": 1009,
+      "id_producto": 204,
+      "cantidad": 1,
+      "precio_unitario": 399.99
+    },
+    {
+      "_id": 16,
+      "id_pedido": 1009,
+      "id_producto": 205,
+      "cantidad": 1,
+      "precio_unitario": 249.99
+    },
+    {
+      "_id": 17,
+      "id_pedido": 1009,
+      "id_producto": 303,
+      "cantidad": 1,
+      "precio_unitario": 129.99
+    },
+    {
+      "_id": 18,
+      "id_pedido": 1010,
+      "id_producto": 105,
+      "cantidad": 1,
+      "precio_unitario": 349.99
+    },
+    {
+      "_id": 19,
+      "id_pedido": 1011,
+      "id_producto": 101,
+      "cantidad": 1,
+      "precio_unitario": 1299.99
+    },
+    {
+      "_id": 20,
+      "id_pedido": 1012,
+      "id_producto": 302,
+      "cantidad": 1,
+      "precio_unitario": 699.99
+    },
+    {
+      "_id": 21,
+      "id_pedido": 1013,
+      "id_producto": 102,
+      "cantidad": 1,
+      "precio_unitario": 1099.99
+    },
+    {
+      "_id": 22,
+      "id_pedido": 1013,
+      "id_producto": 202,
+      "cantidad": 1,
+      "precio_unitario": 549.99
+    },
+    {
+      "_id": 23,
+      "id_pedido": 1014,
+      "id_producto": 202,
+      "cantidad": 1,
+      "precio_unitario": 549.99
+    },
+    {
+      "_id": 24,
+      "id_pedido": 1015,
+      "id_producto": 101,
+      "cantidad": 1,
+      "precio_unitario": 1299.99
+    },
+    {
+      "_id": 25,
+      "id_pedido": 1015,
+      "id_producto": 201,
+      "cantidad": 1,
+      "precio_unitario": 799.99
+    },
+    {
+      "_id": 26,
+      "id_pedido": 1016,
+      "id_producto": 103,
+      "cantidad": 1,
+      "precio_unitario": 899.99
+    },
+    {
+      "_id": 27,
+      "id_pedido": 1017,
+      "id_producto": 102,
+      "cantidad": 1,
+      "precio_unitario": 1099.99
+    },
+    {
+      "_id": 28,
+      "id_pedido": 1017,
+      "id_producto": 301,
+      "cantidad": 1,
+      "precio_unitario": 199.99
+    },
+    {
+      "_id": 29,
+      "id_pedido": 1017,
+      "id_producto": 305,
+      "cantidad": 1,
+      "precio_unitario": 179.99
+    },
+    {
+      "_id": 30,
+      "id_pedido": 1017,
+      "id_producto": 203,
+      "cantidad": 1,
+      "precio_unitario": 129.99
+    },
+    {
+      "_id": 31,
+      "id_pedido": 1018,
+      "id_producto": 101,
+      "cantidad": 1,
+      "precio_unitario": 1299.99
+    },
+    {
+      "_id": 32,
+      "id_pedido": 1019,
+      "id_producto": 301,
+      "cantidad": 2,
+      "precio_unitario": 199.99
+    },
+    {
+      "_id": 33,
+      "id_pedido": 1019,
+      "id_producto": 304,
+      "cantidad": 1,
+      "precio_unitario": 279.99
+    },
+    {
+      "_id": 34,
+      "id_pedido": 1020,
+      "id_producto": 102,
+      "cantidad": 1,
+      "precio_unitario": 1099.99
+    },
+    {
+      "_id": 35,
+      "id_pedido": 1020,
+      "id_producto": 201,
+      "cantidad": 1,
+      "precio_unitario": 799.99
+    },
+    {
+      "_id": 36,
+      "id_pedido": 1021,
+      "id_producto": 103,
+      "cantidad": 1,
+      "precio_unitario": 899.99
+    },
+    {
+      "_id": 37,
+      "id_pedido": 1021,
+      "id_producto": 203,
+      "cantidad": 1,
+      "precio_unitario": 129.99
+    },
+    {
+      "_id": 38,
+      "id_pedido": 1022,
+      "id_producto": 101,
+      "cantidad": 1,
+      "precio_unitario": 1299.99
+    },
+    {
+      "_id": 39,
+      "id_pedido": 1022,
+      "id_producto": 301,
+      "cantidad": 1,
+      "precio_unitario": 199.99
+    },
+    {
+      "_id": 40,
+      "id_pedido": 1022,
+      "id_producto": 305,
+      "cantidad": 1,
+      "precio_unitario": 179.99
+    },
+    {
+      "_id": 41,
+      "id_pedido": 1022,
+      "id_producto": 203,
+      "cantidad": 1,
+      "precio_unitario": 129.99
+    },
+    {
+      "_id": 42,
+      "id_pedido": 1023,
+      "id_producto": 201,
+      "cantidad": 1,
+      "precio_unitario": 799.99
+    },
+    {
+      "_id": 43,
+      "id_pedido": 1024,
+      "id_producto": 102,
+      "cantidad": 1,
+      "precio_unitario": 1099.99
+    },
+    {
+      "_id": 44,
+      "id_pedido": 1024,
+      "id_producto": 105,
+      "cantidad": 1,
+      "precio_unitario": 349.99
+    },
+    {
+      "_id": 45,
+      "id_pedido": 1025,
+      "id_producto": 102,
+      "cantidad": 1,
+      "precio_unitario": 1099.99
+    },
+    {
+      "_id": 46,
+      "id_pedido": 1026,
+      "id_producto": 101,
+      "cantidad": 2,
+      "precio_unitario": 1299.99
+    },
+    {
+      "_id": 47,
+      "id_pedido": 1027,
+      "id_producto": 105,
+      "cantidad": 1,
+      "precio_unitario": 349.99
+    },
+    {
+      "_id": 48,
+      "id_pedido": 1028,
+      "id_producto": 201,
+      "cantidad": 2,
+      "precio_unitario": 799.99
+    },
+    {
+      "_id": 49,
+      "id_pedido": 1029,
+      "id_producto": 103,
+      "cantidad": 1,
+      "precio_unitario": 899.99
+    },
+    {
+      "_id": 50,
+      "id_pedido": 1029,
+      "id_producto": 203,
+      "cantidad": 1,
+      "precio_unitario": 129.99
+    },
+    {
+      "_id": 51,
+      "id_pedido": 1030,
+      "id_producto": 102,
+      "cantidad": 1,
+      "precio_unitario": 1099.99
+    },
+    {
+      "_id": 52,
+      "id_pedido": 1030,
+      "id_producto": 201,
+      "cantidad": 1,
+      "precio_unitario": 799.99
+    }
+  ]
+}
