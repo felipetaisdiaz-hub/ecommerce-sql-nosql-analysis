@@ -2,12 +2,6 @@
 -- Análisis 1: TOP 10 clientes por gasto total
 -- Base de datos: ecommerce_db
 -- Objetivo: Identificar los 10 clientes que más han gastado en la plataforma.
--- Columnas requeridas:
---   - Nombre del cliente
---   - País
---   - Número total de pedidos realizados
---   - Monto total gastado
---   - Ordenado por monto total (descendente)
 -- ==============================================================================
 
 USE ecommerce_db;
