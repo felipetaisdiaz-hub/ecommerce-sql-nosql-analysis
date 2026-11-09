@@ -28,10 +28,10 @@ ecommerce-sql-nosql-analysis/
 
 ---
 
-## 🚀 Puesta en Marcha con Docker (en VS Code)
+## Puesta en Marcha con Docker (en VS Code)
 
 ### 1. Iniciar los contenedores
-Asegúrate de tener Docker Desktop abierto y ejecuta en la terminal integrada de VS Code:
+
 ```bash
 docker compose up -d
 ```
