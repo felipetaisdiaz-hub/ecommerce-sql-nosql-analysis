@@ -53,7 +53,7 @@ Para ejecutar las consultas SQL directamente desde VS Code:
 2. Añade una nueva conexión de tipo **MySQL**:
    - **Connection name:** `Ecommerce MySQL`
    - **Server Address:** `localhost`
-   - **Port:** `3306`
+   - **Port:** `3307`
    - **Database:** `ecommerce_db`
    - **Username:** `root`
    - **Password:** `root`
